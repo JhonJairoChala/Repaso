@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+.cabeza{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 23, 47);
+}
+
+a{
+    text-decoration: none;
+}
+
+.enlaces{
+    color: white;
+    font-size: 25px;
+    margin-left: -15%;
+    margin-right: 7%;
+}
+
+.enlaces2{
+    color: rgb(69, 63, 83);
+    font-size: 25px;
+    margin-right: 7%;
+}
+
+.enlaces3{
+    color: rgb(69, 63, 83);
+    font-size: 25px;
+    margin-left: 90%;
+    margin-top: -5px;   
+}
+
+.parteIzquierda{
+    background-color: rgb(46, 37, 80);
+    float: left;
+    width: 50%;
+    height: 750px;
+    text-align: center;
+}
+
+.textoMedio1{
+    color: white;
+    margin-left: 27%;
+    font-size: 25px;
+}
+
+.parteIzquierda h1{
+    color: white;
+    margin-top: 15%;
+    font-size: 70px;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+.clear{
+    clear: both;
+}
+
+.imagenDerecha{
+    float: right;
+    width: 50%;
+    margin-right: -15%;
+    margin-top: 4%;
+}
+
+.parteIzquierda button{
+    text-align: center;
+    width: 20%;
+    height: 60px;
+}
+
+.textoMedio{
+    color: white;
+    font-size: 25px;
+    margin-left: 9%;
+}
+
+.botonD{
+    background:linear-gradient(to right, rgb(121,70,213), rgb(28,114,213)) ;
+    font-size: 25px;
+    margin-right: -13%;
+    float: right;
+
+}
+
+.botonDownload{
+    color: rgb(236, 0, 110);
+    background-color: white;
+    border: solid 2px black;
+    margin-left: 11%;
+    margin-top: 1%;
+    font-size: 20px;
+    margin-bottom: 1%;;
+}
+
+.botonF{
+    background-color: rgb(46, 37, 80);
+    color: white;
+    border: solid 3px white;
+    font-size: 20px;
+}
+
+.bordeB{
+    border: solid 2px rgb(88, 81, 115);
+}
+
+.imagenL{
+    height: 330px;
+}
+
+.parteL{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tituloF{
+    text-align: center;
+    color: rgb(244, 20, 134);
+    font-size: 75px;
+}
+
+.textoA1{
+    color: rgb(195, 59, 129);
+}
+
+.textoM{
+    color: rgb(232, 95, 166);
+}
+
+.fondoL{
+    padding-top: 30px;
+    background-color: rgb(241, 242, 247);
+}
+
+.chulo{
+    color: rgb(239, 92, 168);
+    border: solid 2px rgb(239, 92, 168);
+    border-radius: 5px;
+    padding: 1px 4px;
+}
+
+.textoP{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    background-color: rgb(30,23,47);
+    margin-top: -4px;
+}
+
+.pL{
+    text-align: center;
+    color: white;
+}
+
+.textoA{
+    background-color: rgb(30,23,47);
+    margin-top: -2%;
+}
+
+.imagenesAbajo{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(30, 23,47);
+    margin-top: -2%;
+    height: 696px;
+}
+
+.imagenN{
+    background-color: #ffffff ;
+    text-align: center;
+    height: 625px;
+    width: 15%;
+}
+
+.relleno{
+    background-color: rgb(30,23,47);
+    color: rgb(30,23,47);
+    padding-top: 2%;
+    padding-bottom: 3%;
+    margin-top: -2%;
+}
+
+.precios{
+    font-size: 30px;
+    float: left;
+    margin-top: -2%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.textoPrecio{
+    margin-right: 35%;
+    float: right;
+}
+
+.precios0{
+    font-size: 30px;
+    float: left;
+    margin-top: -2%;
+    margin-left: 45%;
+    text-align: center;
+}
+
+.estrellaColor{
+    color: rgb(244,20,134);
+}
+
+.botonPrimero{
+    background: linear-gradient(to right, #ec60a8, #f31da8);
+    color: white;
+    border: solid 2px rgb(244,20,134);
+    height: 50px;
+    width: 45%;
+    font-size: 15px;
+    margin-top: -7%;
+}
+
+.botones{
+    background-color: rgb(46,37,80);
+    color: white;
+    height: 50px;
+    width: 45%;
+    font-size: 15px;
+    margin-top: -7%;
+}
+
+.pA{
+    color: rgb(232, 95,166);
+}
+
+.pies{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-size: 20px;
+}
+
+.fondoP{
+    background-color: rgb(241,242,247);
+    height: 45px;
+    padding-bottom: 5%;
+}
